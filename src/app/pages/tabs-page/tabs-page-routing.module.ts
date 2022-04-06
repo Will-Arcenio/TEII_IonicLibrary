@@ -10,7 +10,7 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'schedule',
+        path: 'dashboard',
         children: [
           {
             path: '',
@@ -23,7 +23,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'speakers',
+        path: 'books',
         children: [
           {
             path: '',
@@ -40,7 +40,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'map',
+        path: 'authors',
         children: [
           {
             path: '',
@@ -49,7 +49,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'about',
+        path: 'publishers',
         children: [
           {
             path: '',
